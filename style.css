@@ -47,13 +47,13 @@ span{
 .bienvenido__img{
     height: 300px;
     width: 200px;
-    margin-right: 20px;
 }
 .mac__message{
     background-color: #1c1818;
     height: 200px;
     width: 500px;
     border-radius: 10px;
+    margin-left: 20px;
 }
 .container__icon{
     background-color: darkslategrey;
@@ -125,6 +125,7 @@ footer{
         height: 70%;
         width: 100%;
         border-radius: 10px;
+        margin: 0px;
     }
     .header{
         display: flex;
