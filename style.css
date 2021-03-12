@@ -35,7 +35,7 @@ span{
     min-height: calc(100vh - 343px);
     justify-content: center;
     align-items: center;
-    margin: 50px 30px;
+    margin: 0px 30px 50px 30px;
 }
 .bienvenido__container{
     display: flex;
