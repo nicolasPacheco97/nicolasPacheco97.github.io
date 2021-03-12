@@ -1,0 +1,115 @@
+
+body{
+    background: linear-gradient( #013646 0%, black 100%);
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: 20px;
+}
+.bienvenido{
+    font-size: 18px;
+}
+.bienvenido__img{
+    justify-items: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 343px);
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+}
+.bienvenido__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.bienvenido__img{
+    height: 300px;
+    width: 200px;
+    margin-right: 20px;
+}
+.mac__message{
+    background-color: #1c1818;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+}
+.container__icon{
+    background-color: darkslategrey;
+    border-radius: 10px;
+    padding: 8px;  
+}
+.container__icon img{
+    height: 20px;  
+}
+.mac__message p{
+    margin: 20px;
+}
+.message_icon{
+    height: 20px;
+    top: 2px;
+}
+.get-start{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: darkslategrey;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    outline: none;
+}
+.get-start:hover{
+    background-color: rgb(30, 49, 49);
+}
+footer{
+    height: 100px;
+}
+.footer p{
+    font-size: 10px;
+    margin-left: 30px;
+}
+.footer img{
+    display: flex;
+    margin-left: 20px;
+    height: 30px;
+    justify-content: end;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px){
+    .bienvenido__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+}
