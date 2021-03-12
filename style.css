@@ -124,4 +124,8 @@ footer{
         width: 100%;
         border-radius: 10px;
     }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
 }
